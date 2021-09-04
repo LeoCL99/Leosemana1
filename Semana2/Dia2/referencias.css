@@ -1,0 +1,24 @@
+h1, article{
+    text-decoration: underline;
+}
+article p{
+    background-color: aquamarine;
+}
+/*hace referencia a los primeros hijos*/
+ol > li {
+    color: rebeccapurple;
+}
+article > p {
+    color: red;
+}
+#caja > span{
+    background-color: yellow;
+}
+/*pseudoclases*/
+/* nth-of-type(numero o un indicador)*/
+tr:nth-of-type(odd){
+    background-color: chocolate;
+}
+tr:nth-of-type(even){
+    background-color: greenyellow;
+}
