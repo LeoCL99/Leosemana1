@@ -59,7 +59,7 @@ export default function LoginView() {
 </Form>
 <div class="botones">
 <button type="submit" class="bb">
-    Submit
+    Submits
   </button>
 <button onClick={signIn} class="bba" >
             Ingresa con Google
