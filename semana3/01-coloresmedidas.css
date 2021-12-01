@@ -1,0 +1,27 @@
+*{
+    /**/
+    border: 1px solid red;
+}
+h1{
+    color: peru;
+}
+h2{
+    /*HEXADECIMAL, en pares */
+    /* color: #RR GG BB*/
+    color: #405dfc;
+}
+h3{
+    /* RGB, 0 a 255 cada color*/
+    color: rgb(240, 30, 168);
+}
+p{
+    /*HUE, Saturation, Lightness*/
+    /*Matiz, Saturation e Ilumination*/
+    /*grados, porcentaje, porcentaje*/
+    background-color: hsl(100,50% ,78% );
+}
+/*Mediddas*/
+header{
+    width: 500px;
+    height: 200px;
+}
